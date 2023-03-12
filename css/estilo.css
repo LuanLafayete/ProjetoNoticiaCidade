@@ -74,31 +74,96 @@ body.fotos #navegacao a#fotos {
     cursor: text;
 }
 
-/* ************* CONFIGURAÇÃO DE LAYOUT DE 3 COLUNAS ************* */
+/* ************* CONFIGURAÇÃO DE LAYOUT DAS 3 COLUNAS ************* */
 #conteudo {
     margin-top: 60px;
     background:#f5f5f5;    
 }
 
-#conteudoPrimario {
+#tresColunas #conteudoPrimario {
     width: 270px;
     float: left;
-    margin: 0 0 20px 175px;
-    background: blue;
+    margin: 0 0 20px 195px;
 }
 
-#conteudoSecundario {
-    width: 270px;
-    float: left;
-    margin: 0 0 20px 15px;
-    background: green;
+#duasColunas #conteudoPrimario {
+    width: 555px;
+}
+
+#umaColuna #conteudoPrimario {
+    width: 750px;
+    margin: 0 0 20px 0px;
 }
 
 #conteudoLateral {
     width: 180px;
     float: left;
     margin: 0 0 20px -750px ;
-    background: yellow;
+}
+
+#conteudoSecundario {
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+}
+
+/* ************* CAIXAS ************* */
+.caixa {
+    margin: 10px 0;
+    padding: 5px;
+    background: #f3f3f3 url(../imagens/fundo-caixa.png); 
+}
+
+h2 {
+    font-size: 1.1em;
+    background: #294c71;
+    color: #FFF;
+    padding: 5px;
+}
+
+.caixaConteudo {
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+/* ************* FORMATAÇÃO DO MENU LATERAL ************* */
+#conteudoLateral ul a {
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid#f3f3f3;
+}
+
+#conteudoLateral ul a:hover {
+    /* Adiciona um marcador e move o texto para a direita em 20 pixel
+    background: #f9f9f9 url(../imagens/marcador.png) no-repeat left center;
+    padding-left: 20px; */
+    color: #a1a1a1;
+}
+
+/* ************* FORMATAÇÃO DO FORMULÁRIO ************* */
+label {
+    display: block;
+    cursor: pointer;
+}
+
+input {
+    padding: 5px;
+    width: 125px;
+    font-size: 0.9em;
+    background-color: #fff;
+    border: 1px solid #a1a1a1;
+}
+
+input.submit {
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid #870529;
 }
 
 /* ************* RODAPE ************* */
