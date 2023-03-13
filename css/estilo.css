@@ -28,6 +28,15 @@ body {
 }
 
 /* ************* BARRA DE NAVEGAÇÃO ************* */
+a:link, a:visited {
+    color: #b10333;
+    padding: 2px;
+}
+
+a:hover {
+    color: #e50040;
+}
+
 ul {
     margin: 0;
     padding: 0;
@@ -189,6 +198,39 @@ h3 {
     background: #b10333;
     color: #fff;
 }
+
+/* ************* FORMATAMDO LISTA DE NOTICIAS ************* */
+#listaNoticias li {
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 62px;
+}
+
+#listaNoticias li a img {
+    float: left;
+    margin: 5px;
+}
+
+#listaNoticias li a {
+    text-decoration: none;
+}
+
+#listaNoticias li a h3 {
+    font-size: 0.7em;
+    padding: 0;
+    color: #3e7ab9;
+}
+
+#listaNoticias li a p {
+    font-size: 0.7em;
+    color: #000;
+}
+
+#listaNoticias li:hover {
+    background: #eee;
+    cursor: pointer;
+}
+
 
 /* ************* FORAMTANDO RODAPÉ ************* */
 #containerRodape {
