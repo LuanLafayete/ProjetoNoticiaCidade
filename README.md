@@ -29,6 +29,8 @@ PÁGINA FOTOS
 - CSS
 - Git e Github
 
+[🔗 Clique aqui para acessar](https://luanlafayete.github.io/ProjetoNoticiaCidade/)
+
 ## ☎ Contato
 - LinkedIn: 
 https://www.linkedin.com/in/lu%C3%A3-lafayete-salgado-42467a42/
